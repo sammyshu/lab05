@@ -1,4 +1,13 @@
+/*
+filename: layout.css
+author: Sammy
+created: 10/20/2026
+last modified: 10/23/2026
+description: Layout styles for lab05.html (in ../lab05.html)
+*/
+
 aside:hover {display:block;}
+
 aside{
     border: 4px inset purple;
     border-radius: 14px;
@@ -10,9 +19,17 @@ aside{
 }
 
 header{
-    border: 1px;
-    border-color: darkgray;
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
 }
+
+footer{
+    border-top: 4px double darkgray;
+}
+
 .menu{
     display: inline-block;
 }
